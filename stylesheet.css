@@ -275,3 +275,70 @@ nav button{
     border-radius: 15px;
     box-shadow: 0px 19px 42px rgba(1, 1, 1, 0.3);
  }
+ .services {  width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .services h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .services-data {
+    width: 70%;
+    margin: auto;
+    background-color: #272b34;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .web {
+    box-shadow: 0px 19px 42px rgba(255, 255, 255, 0.1);
+      width: 200px;
+      height: 350px;
+      background-color: #272b34;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  .app {
+    box-shadow: 0px 19px 42px rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 350px;
+  
+    background-color: #272b34;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  .uiux {
+    box-shadow: 0px 19px 42px rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 350px;
+  
+    background-color: #272b34;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .web:hover{
+      box-shadow: 0px 19px 42px rgba(180, 180, 180, 0.5);
+      transition: 1s;
+  }
+  .app:hover{
+      box-shadow: 0px 19px 42px rgba(180, 180, 180, 0.5);
+      transition: 1s;
+  }
+  .uiux:hover{
+      box-shadow: 0px 19px 42px rgba(255, 255, 255, 0.5);
+      transition:ease-in-out 1s;
+  }
