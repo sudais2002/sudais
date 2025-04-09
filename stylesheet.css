@@ -398,3 +398,15 @@ height: 350S0px;
   transition: 0.5s;
 }
 
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+     margin-top: 20px;
+    
+}
